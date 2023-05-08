@@ -3,16 +3,14 @@ import bg from '../assets/bg1.jpg'
 import family from '../assets/family.jpg'
 import cloud from '../assets/cloud.jpg'
 import hunt from '../assets/hunt.jpg'
+
 function Landing() {
   return (
     <div>
     <div></div>
     <div className=''>
       <img src={bg} alt="" className='fixed -z-10'/>
-    
       <div className='pt-64 items-center'>
-
-
         {/* family */}
         <div className='flex'>
           <div className='text-white w-full text-center my-56 mx-72 bg-opacity-70 pt-8 bg-black rounded-xl flex'>Hi, My name is Corey, and this is my family. My wife Kayleen,
@@ -43,7 +41,6 @@ function Landing() {
         </div>
       </div>
     </div>
-        
   )
 }
 
