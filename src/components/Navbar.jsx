@@ -22,7 +22,7 @@ function Navbar() {
                 <a href="https://corey-recipes.netlify.app/" target="_blank" class="w3-bar-item w3-button">Recipe Search</a>
                 <a href="http://phonebook-app-api.glitch.me/" target="_blank" class="w3-bar-item w3-button">Flask Phonebook API</a>
             </div>
-            </div><a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="https://www.codewars.com/users/djcjn16/badges/small" className='' alt="" /></a>
+            </div><a href="https://www.codewars.com/users/djcjn16" target='_blank' class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="https://www.codewars.com/users/djcjn16/badges/small" className='' alt="" /></a>
         </div>
         </div>
     )
