@@ -5,9 +5,11 @@ import cloud from '../assets/fam.jpg'
 import hunt from '../assets/hunt.jpg'
 
 function Landing() {
+
+  // styled with tailwindcss
   return (
     <div>
-    <div className=''>
+      <div className=''>
       <img src={bg} alt="" className='fixed -z-10'/>
       <div className='pt-64 items-center'>
         {/* bio */}
@@ -29,7 +31,7 @@ function Landing() {
             <div className=' w-full pr-32'>
               <img src={cloud} alt="" className=' border-2 p-2 rounded-full'/>
             </div>
-          <div className='text-white w-full text-center my-56 mx-72 bg-opacity-70 p-6 bg-black rounded-xl flex'>I am a proud husband and father of four children. 
+          <div className='text-white w-full text-center my-56 mx-72 bg-opacity-70 p-6 mt-36 bg-black rounded-xl flex'>I am a proud husband and father of four children. 
           My wife, Kayleen, is a medical insurance specialist with extensive experience in the healthcare industry. Kayleen is passionate about helping people navigate the 
           complex world of medical insurance and ensuring that they receive the care they need. Kayleen and I have four children: Marrissa, Corey Jr., Isaac, and Cloud. 
           Marrissa is an avid reader and enjoys writing her own stories. Corey Jr. is a talented musician who plays the trumpet and writes his own songs. Isaac is a budding artist 
@@ -38,7 +40,7 @@ function Landing() {
         </div>
         {/* about */}
         <div className='flex py-24'>
-          <div className='text-white w-full text-center my-32 mx-72 bg-opacity-70 p-6 bg-black rounded-xl flex'>I am an avid outdoorsman who enjoys spending 
+          <div className='text-white w-full text-center my-32 mx-72 bg-opacity-70 p-6 bg-black rounded-xl mt-20 flex'>I am an avid outdoorsman who enjoys spending 
           time hunting, mountain biking, and exploring nature with my family. I am passionate about the great outdoors and believe that spending time in nature is 
           essential for maintaining a healthy mind and body. When I'm not working as a full stack software engineer, I can often be found embarking on outdoor 
           adventures with my wife and children. As a family, we enjoy hunting for deer and other game in the fall, mountain biking on local trails, and hiking in the 

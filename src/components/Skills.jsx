@@ -2,7 +2,10 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className="w3-black" id="skills">
+
+    // combined tailwindcss with w3 css 
+    <div className='p-12 pt-36' id='skills'>
+    <div className="w3-black rounded-3xl">
         <div className="concert-container w3-container w3-content w3-padding-64">
             <h1 className='text-4xl pb-10 justify-center flex'>Technical Skills</h1>
             <table>
@@ -40,6 +43,7 @@ function Skills() {
                 </tr>
             </table>
         </div>
+    </div>
     </div>
   )
 }
