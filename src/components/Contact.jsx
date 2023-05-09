@@ -12,7 +12,7 @@ function Contact() {
     const templateParams = {
       from_name: name,
       from_email: email,
-      message_html: message,
+      message: message,
     };
 
     emailjs.send(
@@ -23,7 +23,7 @@ function Contact() {
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
-      alert('Your message has been sent!');
+      alert('Your message has been sent! Corey usually replies within 1 day. ');
       setName('');
       setEmail('');
       setMessage('');
@@ -38,7 +38,7 @@ function Contact() {
 
 
     <div className='py-64' id='contact'>
-    <div className="max-w-lg mx-auto mb-20 bg-black text-white p-20 rounded-3xl">
+    <div className="max-w-lg mx-auto mb-20 bg-black bg-opacity-70 text-white p-20 rounded-3xl">
       <h2 className="text-2xl font-bold mb-4 ">Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
