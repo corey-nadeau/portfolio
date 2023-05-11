@@ -37,8 +37,8 @@ function Contact() {
     // styled with tailwindcss
 
 
-    <div className='py-64' id='contact'>
-    <div className="max-w-lg mx-auto mb-20 bg-black bg-opacity-70 text-white p-20 rounded-3xl">
+    <div className='md:py-64' id='contact'>
+    <div className="max-w-lg mx-auto mb-20 bg-black border-2 border-black bg-opacity-70 text-white p-20 md:rounded-3xl">
       <h2 className="text-2xl font-bold mb-4 ">Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

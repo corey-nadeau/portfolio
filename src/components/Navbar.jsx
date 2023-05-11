@@ -5,16 +5,17 @@ function Navbar() {
 
     // styled with w3css
     return (
-        <div class="w3-top">
-            <div class="w3-bar w3-black w3-card">
-                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-                <a href="#" class="w3-bar-item w3-button w3-padding-large">Corey Nadeau - Full-Stack Software Engineer</a>
-                <a href="https://docs.google.com/document/d/1FFWqvdzpkjVwcUaFyqz0KI9qwcAZjIp3_d68g0ln0X0/edit" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Resume</a>
-                <a href="#bottom" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Social Media</a>
-                <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skills</a>
-                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Me</a>
+        <div class="w3-top w-full">
+            <div class="w3-black w3-card text-center text-sm">
+                <a href="#" class="w3-bar-item w3-button w3-padding-large"><b>Corey Nadeau</b> - Full-Stack Software Engineer</a>
+                <a href="https://docs.google.com/document/d/1FFWqvdzpkjVwcUaFyqz0KI9qwcAZjIp3_d68g0ln0X0/edit" target="_blank" class="w3-bar-item w3-button 
+                        w3-padding-large">Resume</a>
+                <a href="#bottom" class="w3-bar-item w3-button w3-padding-large">Social Media</a>
+                <a href="#skills" class="w3-bar-item w3-button w3-padding-large">Skills</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
                 
-            <div class="w3-dropdown-hover w3-hide-small">
+                
+            <div class="w3-dropdown-hover">
             <button class="w3-padding-large w3-button" title="More">My Projects <i class="fa fa-caret-down"></i></button> 
 
             <div class="w3-dropdown-content w3-bar-block w3-card-4">

@@ -7,7 +7,6 @@ import Music from './components/Music'
 import './App.css'
 
 function App() {
-
   return (
     <div>
       <Navbar/>
