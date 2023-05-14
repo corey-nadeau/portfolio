@@ -1,69 +1,28 @@
-export const sliderImages1 = [
-    {
-       url: "https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/72286076_10157637497519188_8183292195130834944_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=l5sIbgG4TlEAX-6jKRf&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfDOxJHBVmezLEmmKze_qLIlE_tfBhdlhWepeJwXmhEMJg&oe=6482B5AD",
-    },
-    {
-       url: "https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/60042382_1518403248294026_2585840508584591360_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=OfzpJrL_YDkAX9H3Vxa&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfCvWdX7aaD7y88h892zvsRgFMGz0vFnbN1ErS3EmZgdRQ&oe=64828BC0",
-    },
-    {
-       url: "https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/118310838_1987704401363906_496455183517320615_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=wdJg2BtaGfMAX-V5Vdx&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfAmD3Upv1sFaO6xisjU16li1LE5nm_6JHVKX8ToYJlrMA&oe=64828F0E"
-    },
-    {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/116883716_10158639624089188_35615631052032884_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=KzB3tWiJ-_sAX_NQjzW&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfAnqcuovjxnvum1iGjlIhWxsuLMnztVAmdSB0C3HnW2sg&oe=6482A317"
-    },
-    {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/116882358_10158639619524188_1275587118272243895_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=_vFcJRjkryEAX94hs4N&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfD8nBscbKVG163JjnDn5d0UZ-284Z-JWgFsDl4SRLmC4A&oe=6482B77C"
-    },
-    {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/106001828_10158508473284188_7884301240976147575_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=_RutYBzucmEAX_QM86z&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfATUT8k1ov9Or0_mBtnNtGmmAn-Bm2XXTyFLUT6drNylg&oe=6483BB97"
-    },
-    {
-       url:'https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/104160993_10158508473339188_8954535022379655178_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=xu8gdVsbGbQAX_DsZuo&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfB3f8achVciJ2ZxQCSy0Ol0Ma-XYPCCcsMyvuCEEJ8aoQ&oe=6483C3F7'
-    }
- ];
- export const sliderImages2 = [
-   {
-       url:'https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/321413200_565365605451431_6304578067766650501_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=uU0vutjn2O8AX_e2XPc&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfBQNcmUocQBAlSLpsmqJ8qBRSvraD195Kh2zibXCvrvuQ&oe=64608A90'
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/323618406_1192876708292142_7254115365715684965_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MlsxusDGvlUAX8wmUI7&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfA1i8LeZi_6yEObGmWH64sKNAimBIBVAxkVsumI77UpXQ&oe=64620587"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/280810238_10160091924314188_4842691705681055183_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Ea5U2KIEbvcAX884zlF&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfD3Z29o7IYsxNeL2_0TLRJUw1uDN42sfbiR1woYnItgag&oe=6460BA93"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/310311721_10160345283469188_7282304850925525800_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1AR45NOUD1MAX-vlmuV&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfBsrZvkoPI_j2clX0SL3Ey75uTm-xpvtzKxAwOTHlscGg&oe=645F4780"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/289255738_2541552862645721_7502931858967602067_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=fEG0euwtpAoAX-OXKlZ&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfDrthNq6MLacXSpTa7LlDUhxEM6QprWrAxkTzTVxUY-xQ&oe=64602F02"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/289620819_2541552945979046_1092543309740486841_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PgRpR0qsXCQAX9VJooB&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfCrKy4pf5-vqOzSeBCkoyK4tka6cwG1VatSKZy1UubV-Q&oe=64610568"
-   },
-   {
-       url:'https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/289250341_2541552995979041_5640796685099220468_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7UX8flC7AtQAX8crRCR&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfCGbSsWe_8RaSqYwse0E3r6jvHEi6thZGgfoTNJqi6U3A&oe=645F3886'
-   },
-   {
-       url:'https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/288924807_2541553022645705_9194469244485417394_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=oKMdwh0laJMAX9k7wPE&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfCXgcYii4L5wooHs8eMvIIlP8wE30TKC2CWLTgJ9wmR1g&oe=645F41CE'
-   }
- ];
- export const sliderImages3 = [
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/293592784_10160199123994188_51995092631654742_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=GTYL1z5JXUIAX9CkdVl&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfC9CF6HVOQQ2-jEnF-pgFKiXh0_9LvLwhvc_bDMwR0PfQ&oe=645FB2BA"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/291650373_10160190265934188_1233156739446307357_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=d6dNYiQ4ACwAX-EtzED&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfBQX__VD3k8xZPK8sArtYIgsa-83JAHntU7B6Eh-mkGSw&oe=6460BC62"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/309281006_10160333866209188_8657544656556865190_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=P4hboPFxf1cAX9Xd2tv&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfAH4fyclpVmrG1RUQBFN2HO4OHSndApBLAMrdXfgBKF9Q&oe=645F2D4C"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/274446996_10159936646369188_2594198336377121049_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Egu9Ict7g7EAX8zkJoB&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfC0XH6qIJT4o9AxBsiTGl0OYcdWTpaLr_jz2CC3m509gQ&oe=645FD5BA"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/271599275_10159855056244188_6348367850604900290_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AHXLQYtGe94AX-LSE0w&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfBrLCjJXt7cum3gqzICEhtKRuq8a4DjW1-Vf7bYVPMkJQ&oe=64605422"
-   },
-   {
-       url:"https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.6435-9/66305260_1563516437116040_7656465519419064320_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=g9lm2K_MPaoAX-ehnez&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfAFTjqmDkV9LnYY_jdgqdvhkCg627-sqz7hJEKUkphFtQ&oe=6483DC14"
-   }
- ]
+import sl1 from '../assets/slide1/sl1.jpg'
+import sl2 from '../assets/slide1/sl2.jpg'
+import sl3 from '../assets/slide1/sl3.jpg'
+import sl4 from '../assets/slide1/sl4.jpg'
+import sl5 from '../assets/slide1/sl5.jpg'
+import sl6 from '../assets/slide1/sl6.jpg'
+
+import sl7 from '../assets/slide2/sl7.jpg'
+import sl8 from '../assets/slide2/sl8.jpg'
+import sl9 from '../assets/slide2/sl9.jpg'
+import sl10 from '../assets/slide2/sl10.jpg'
+import sl11 from '../assets/slide2/sl11.jpg'
+import sl12 from '../assets/slide2/sl12.jpg'
+import sl13 from '../assets/slide2/sl13.jpg'
+
+import sl14 from '../assets/slide3/sl14.jpg'
+import sl15 from '../assets/slide3/sl15.jpg'
+import sl16 from '../assets/slide3/sl16.jpg'
+import sl17 from '../assets/slide3/sl17.jpg'
+import sl18 from '../assets/slide3/sl18.jpg'
+import sl19 from '../assets/slide3/sl19.jpg'
+import sl20 from '../assets/slide3/sl20.jpg'
+
+export const slider1 = [sl1,sl2,sl3,sl4,sl5,sl6]
+
+export const slider2 = [sl7, sl8, sl9, sl10, sl11, sl12, sl13]
+
+export const slider3 = [sl14, sl15, sl16, sl17, sl18, sl19, sl20]

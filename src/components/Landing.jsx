@@ -1,9 +1,10 @@
 import React from 'react'
 import bg from '../assets/bg1.jpg'
-import { sliderImages1, sliderImages2, sliderImages3 } from './SliderData';
 import SimpleImageSlider from "react-simple-image-slider"
+import { slider1, slider2, slider3 } from './SliderData'
 
 function Landing() {
+  
 
   // styled with tailwindcss
   return (
@@ -24,7 +25,7 @@ function Landing() {
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
             height={500}
-            images={sliderImages1}
+            images={slider1}
             showBullets={true}
             showNavs={true}
             autoPlay={true} 
@@ -43,7 +44,7 @@ function Landing() {
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
             height={500}
-            images={sliderImages2}
+            images={slider2}
             showBullets={true}
             showNavs={true}
             autoPlay={true} 
@@ -76,7 +77,7 @@ function Landing() {
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
             height={500}
-            images={sliderImages3}
+            images={slider3}
             showBullets={true}
             showNavs={true}
             autoPlay={true} 
