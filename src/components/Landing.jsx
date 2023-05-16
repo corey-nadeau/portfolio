@@ -1,39 +1,39 @@
 import React from 'react'
-import bg from '../assets/bg1.jpg'
+import profpic from '../assets/profilePic.jpeg'
 import SimpleImageSlider from "react-simple-image-slider"
-import { slider1, slider2, slider3 } from './SliderData'
+import { slider1, slider2 } from '../config/SliderData'
+import { bgSlider } from '../config/bgSliderData'
 
 function Landing() {
   
+ 
 
   // styled with tailwindcss
   return (
     <div>
       <div>
-      <img src={bg} className='md:fixed -z-10'/>
+      <div className='hidden-mobile md:fixed -z-10'><SimpleImageSlider
+            width={1920}
+            height={1080}
+            images={bgSlider}
+            showBullets={false}
+            showNavs={false}
+            autoPlay={true} 
+               autoPlayDelay = {4}
+         /></div>
       <div className='md:pt-64 items-center'>
         {/* bio */}
         <div className='md:flex'>
-          <div className='text-white md:w-full text-center md:my-48 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex'>My Name is Corey Nadeau, and I am a full stack software 
+          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex'>My Name is Corey Nadeau, and I am a full stack software 
           engineer with a focus 
           on HTML, CSS, Python, Flask, JavaScript, SQL, and React. I completed my education at Coding Temple, where I gained expertise in various programming languages and 
           frameworks. I am passionate about developing creative solutions to complex problems and have a proven track record of delivering high-quality code that meets project 
           requirements. I am a team player who enjoys collaborating with others to achieve common goals. I enjoy exploring new technologies and 
           programming languages to expand my skills as a developer.</div>
-            <div className='md:my-auto md:items-center md:mr-48 bg-black'>
-            <SimpleImageSlider
-            style={{ margin: '0 auto', maxWidth: '100%' }}
-            width={360}
-            height={500}
-            images={slider1}
-            showBullets={true}
-            showNavs={true}
-            autoPlay={true} 
-               autoPlayDelay = {3}
-         />
+            <img src={profpic} className='lg:max-w-lg lg:shadow-black lg:shadow-2xl lg:mr-56 lg:rounded-3xl pb-2 lg:pb-0 bg-black object-cover'></img>
             </div>
           </div>
-        </div>
+        
 
 
         {/* fam */}
@@ -44,7 +44,7 @@ function Landing() {
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
             height={500}
-            images={slider2}
+            images={slider1}
             showBullets={true}
             showNavs={true}
             autoPlay={true} 
@@ -77,7 +77,7 @@ function Landing() {
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
             height={500}
-            images={slider3}
+            images={slider2}
             showBullets={true}
             showNavs={true}
             autoPlay={true} 

@@ -21,8 +21,6 @@ import sl18 from '../assets/slide3/sl18.jpg'
 import sl19 from '../assets/slide3/sl19.jpg'
 import sl20 from '../assets/slide3/sl20.jpg'
 
-export const slider1 = [sl1,sl2,sl3,sl4,sl5,sl6]
+export const slider1 = [sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13]
 
-export const slider2 = [sl7, sl8, sl9, sl10, sl11, sl12, sl13]
-
-export const slider3 = [sl14, sl15, sl16, sl17, sl18, sl19, sl20]
+export const slider2 = [sl14, sl15, sl16, sl17, sl18, sl19, sl20]
