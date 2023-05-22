@@ -4,6 +4,7 @@ import Contact from './components/Contact'
 import Footer from './components/Social'
 import Skills from './components/Skills'
 import Music from './components/Music'
+import FunJokes from './components/Jokes'
 import './App.css'
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Navbar/>
       <Music/>
         <Landing/>
-          <Skills/>
+          <Skills/><div className='md:flex md:justify-around md:px-60'>
         <Contact/>
+        <FunJokes/></div>
       <Footer/>
     </div>
   )

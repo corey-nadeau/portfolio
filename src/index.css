@@ -132,12 +132,12 @@
   background-color: magenta;
 }
 
-.cufront { transform: translateZ(100px); }
-.cuback { transform: rotateY(180deg) translateZ(100px); }
-.curight { transform: rotateY(90deg) translateZ(100px); }
-.culeft { transform: rotateY(-90deg) translateZ(100px); }
-.cutop { transform: rotateX(90deg) translateZ(100px); }
-.cubottom { transform: rotateX(-90deg) translateZ(100px); }
+.cufront { transform: translateZ(100px); border: 2px solid black; border-radius: 2%;}
+.cuback { transform: rotateY(180deg) translateZ(100px); border: 2px solid black; border-radius: 2%;}
+.curight { transform: rotateY(90deg) translateZ(100px); border: 2px solid black; border-radius: 2%;}
+.culeft { transform: rotateY(-90deg) translateZ(100px); border: 2px solid black; border-radius: 2%;}
+.cutop { transform: rotateX(90deg) translateZ(100px); border: 2px solid black; border-radius: 2%;}
+.cubottom { transform: rotateX(-90deg) translateZ(100px); border: 2px solid black; border-radius: 2%;}
 
 
 @keyframes rotation {

@@ -24,13 +24,13 @@ function Landing() {
       <div className='md:pt-64 items-center'>
         {/* bio */}
         <div className='md:flex'>
-          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex'>My Name is Corey Nadeau, and I am a full stack software 
+          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>My Name is Corey Nadeau, and I am a full stack software 
           engineer with a focus 
           on HTML, CSS, Python, Flask, JavaScript, SQL, and React. I completed my education at Coding Temple, where I gained expertise in various programming languages and 
           frameworks. I am passionate about developing creative solutions to complex problems and have a proven track record of delivering high-quality code that meets project 
           requirements. I am a team player who enjoys collaborating with others to achieve common goals. I enjoy exploring new technologies and 
           programming languages to expand my skills as a developer.</div>
-            <img src={profpic} className='lg:max-w-lg lg:shadow-black lg:shadow-2xl lg:mr-56 lg:rounded-3xl pb-2 lg:pb-0 bg-black object-cover'></img>
+            <img src={profpic} className='lg:max-w-lg border-2 border-black lg:shadow-black lg:mr-56 lg:rounded-3xl pb-2 lg:pb-0 bg-black object-cover'></img>
             </div>
           </div>
         
@@ -39,7 +39,7 @@ function Landing() {
         {/* fam */}
         <div className=' md:pt-36 md:pl-24 md:items-center'>
           <div className='md:flex'>
-            <div className='my-auto items-center md:ml-48 bg-black'>
+            <div className='my-auto items-center md:ml-48 bg-black border-2 border-black lg:shadow-black lg:shadow-2xl'>
             <SimpleImageSlider
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
@@ -52,7 +52,7 @@ function Landing() {
          />
             </div>
 
-          <div className='text-white md:w-full text-center md:my-48 md:mx-44 bg-opacity-70 p-6 bg-black md:rounded-xl flex'>I am a proud husband and father of four children. 
+          <div className='text-white md:w-full text-center md:my-48 md:mx-44 bg-opacity-70 p-6 bg-black md:rounded-xl flex border-2 border-black lg:shadow-black lg:shadow-2xl'>I am a proud husband and father of four children. 
           My wife, Kayleen, is a medical insurance specialist with extensive experience in the healthcare industry. Kayleen is passionate about helping people navigate the 
           complex world of medical insurance and ensuring that they receive the care they need. Kayleen and I have four children: Marrissa, Corey Jr., Isaac, and Cloud. 
           Marrissa is an avid reader and enjoys writing her own stories. Corey Jr. is a talented musician who plays the trumpet and writes his own songs. Isaac is a budding artist 
@@ -63,7 +63,7 @@ function Landing() {
 
         {/* about */}
         <div className='md:flex md:pt-12'>
-          <div className='text-white md:w-full text-center md:my-64 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex'>I am an avid outdoorsman who enjoys spending 
+          <div className='text-white md:w-full text-center md:my-64 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex border-2 border-black lg:shadow-black lg:shadow-2xl'>I am an avid outdoorsman who enjoys spending 
           time hunting, mountain biking, and exploring nature with my family. I am passionate about the great outdoors and believe that spending time in nature is 
           essential for maintaining a healthy mind and body. When I'm not working as a full stack software engineer, I can often be found embarking on outdoor 
           adventures with my wife and children. As a family, we enjoy hunting for deer and other game in the fall, mountain biking on local trails, and hiking in the 
@@ -72,7 +72,7 @@ function Landing() {
           outdoors is not only good for the body, but also for the soul, and I encourage everyone to get outside and explore the natural world around you.
           </div>
             
-          <div className='md:my-auto md:items-center md:mr-48 bg-black'>
+          <div className='md:my-auto md:items-center md:mr-48 bg-black border-2 border-black lg:shadow-black lg:shadow-2xl'>
             <SimpleImageSlider
             style={{ margin: '0 auto', maxWidth: '100%' }}
             width={360}
