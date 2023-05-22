@@ -29,3 +29,118 @@
     display: none;
   }
 }
+
+#cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation: rotation 15s infinite linear;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 35%
+}
+
+.cutext { padding-left: 5%; }
+
+.cuface {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  opacity: 0.85;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.intext1 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: red;
+}
+.intext2 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: green;
+}
+.intext3 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: blue;
+}
+.intext4 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: yellow;
+}
+.intext5 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: cyan;
+}
+.intext6 {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+  border-radius: 20%;
+  padding: 10px;
+  background-color: magenta;
+}
+
+.cufront { transform: translateZ(100px); }
+.cuback { transform: rotateY(180deg) translateZ(100px); }
+.curight { transform: rotateY(90deg) translateZ(100px); }
+.culeft { transform: rotateY(-90deg) translateZ(100px); }
+.cutop { transform: rotateX(90deg) translateZ(100px); }
+.cubottom { transform: rotateX(-90deg) translateZ(100px); }
+
+
+@keyframes rotation {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to { transform: rotateX(360deg) rotateY(360deg); }
+}

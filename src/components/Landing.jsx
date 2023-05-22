@@ -1,8 +1,8 @@
 import React from 'react'
 import profpic from '../assets/profilePic.jpeg'
 import SimpleImageSlider from "react-simple-image-slider"
-import { slider1, slider2 } from '../config/SliderData'
-import { bgSlider } from '../config/bgSliderData'
+import Cubed from './Cubed'
+import { slider1, slider2, bgSlider } from '../config/SliderData'
 
 function Landing() {
   
@@ -57,7 +57,7 @@ function Landing() {
           complex world of medical insurance and ensuring that they receive the care they need. Kayleen and I have four children: Marrissa, Corey Jr., Isaac, and Cloud. 
           Marrissa is an avid reader and enjoys writing her own stories. Corey Jr. is a talented musician who plays the trumpet and writes his own songs. Isaac is a budding artist 
           who loves to draw and paint, while Cloud is a curious toddler who loves to explore his surroundings. As a family, the Nadeaus enjoy spending time together, whether 
-          it's playing board games, going camping, or simply enjoying each other's company.</div>
+          it's playing board games, going camping, or simply enjoying each other's company.</div><Cubed />
         </div>
 
 
