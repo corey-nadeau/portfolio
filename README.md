@@ -2,7 +2,7 @@
 
 This is a portfolio site built with React, Vite, JavaScript, W3CSS, Tailwind CSS, React Slider Images, and EmailJS. The site features a slider gallery of images, a contact form that sends emails using EmailJS, and a responsive design that works on both desktop and mobile devices.
 
-Hosted at corey-nadeau.com
+Hosted at - [corey-nadeau.com](https://corey-nadeau.com)
 
 
 ## Updates
