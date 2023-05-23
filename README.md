@@ -7,8 +7,13 @@ Hosted at corey-nadeau.com
 
 ## Updates
 
+```
 5/23/23 Added the simpsons quote api
+```
+
+```
 5/22/23 Added a random joke generator api
+```
 
 ## Installation
 
