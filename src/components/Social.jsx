@@ -11,7 +11,7 @@ function Footer() {
           <a title="Github" href="https://github.com/corey-nadeau" target="_blank"><i class="fab fa-github pr-6"></i></a>
           <a title="Codewars" href="https://www.codewars.com/users/djcjn16" target="_blank"><i class="fa-solid fa-code pr-6"></i></a>
           <a title="Credly" href="https://www.credly.com/users/corey-nadeau" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
-        <div class="cc"><br></br>&copy; Website by Corey Nadeau 2023</div>
+        <div class="cc"><br></br> © Website by Corey Nadeau 2023</div>
       </footer>
     </div>
   )
