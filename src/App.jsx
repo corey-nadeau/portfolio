@@ -5,6 +5,7 @@ import Footer from './components/Social'
 import Skills from './components/Skills'
 import Music from './components/Music'
 import FunJokes from './components/Jokes'
+import Simpsons from './components/Simpsons'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Skills/><div className='md:flex md:justify-around md:px-60'>
         <Contact/>
         <FunJokes/></div>
+        <Simpsons/>
       <Footer/>
     </div>
   )

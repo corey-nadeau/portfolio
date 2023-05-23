@@ -30,7 +30,7 @@ function Cubed() {
         <div className="cuface cubottom"><div className="intext6 change" id='change' onClick={Change}>Isaac</div><img src={sl10} className=' h-full w-full'></img></div>
     </div>
     <div>
-        <h3 className="bg-black opacity-75 text-center text-white p-3 md:rounded-lg pr-20 md:pr-0">Click a name to change colors!</h3>
+        <h3 className="bg-black opacity-75 text-center text-white p-3 md:rounded-lg pr-20 md:pr-3">Click a name on the cube to change colors!</h3>
     </div>
     </div>
   )
