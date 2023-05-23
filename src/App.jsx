@@ -15,9 +15,9 @@ function App() {
       <Music/>
         <Landing/>
           <Skills/><div className='md:flex md:justify-around md:px-60'>
-        <Contact/>
+        <Contact/><div className=' flex-col'>
         <FunJokes/></div>
-        <Simpsons/>
+        <Simpsons/></div>
       <Footer/>
     </div>
   )
