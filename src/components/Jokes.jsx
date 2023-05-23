@@ -24,7 +24,7 @@ const FunJokes = () => {
       <div className="max-w-md p-4 rounded shadow bg-white border-2 border-black text-black md:rounded-xl bg-opacity-70 lg:shadow-black lg:shadow-2xl">
         <h2 className="text-2xl font-bold mb-4">Random Joke Generator</h2>
         <button
-          className="bg-blue-500 hover:bg-blue-600 fa-beat  text-white py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
           onClick={fetchJoke}
         >
           Get Joke

@@ -24,11 +24,11 @@ const Simpsons = () => {
 
   return (
     <div className="flex items-center justify-center min-h-auto pb-20 md:pb-40 md:bg-transparent text-center bg-black">
-      <div className="max-w-md p-4 rounded shadow bg-white border-2 border-black text-black md:rounded-xl bg-opacity-70 lg:shadow-black lg:shadow-2xl">
+      <div className="max-w-lg p-4 rounded shadow bg-white border-2 border-black text-black md:rounded-xl bg-opacity-70 lg:shadow-black lg:shadow-2xl">
         <h2 className="text-2xl font-bold mb-4">Simpsons Quotes</h2>
         <img className=' max-h-64 mx-auto pb-3 ' src={Img}></img>
         <button
-          className="bg-blue-500 hover:bg-blue-600 fa-beat  text-white py-2 px-4 rounded"
+          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
           onClick={fetchQuote}
         >
           Get Quote
