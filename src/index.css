@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+  * {
+    border: solid red;
+} */
+
 #navbar {
     position: fixed;
     top: 0;
@@ -14,11 +19,6 @@
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.712));
   }
   
-  
-
-  * {
-    /* border: solid red; */
-}
 
 .profileImg{
   max-width: 500px;

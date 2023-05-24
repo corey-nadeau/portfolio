@@ -7,7 +7,7 @@ import sl13 from '../assets/slide2/sl13.jpg'
 import sl16 from '../assets/slide3/sl16.jpg'
 import sl15 from '../assets/slide3/sl15.jpg'
 
-
+// styled in css 
 function Cubed() {
     function Change() {
     const faces = document.querySelectorAll('.change', '#change');
