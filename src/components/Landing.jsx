@@ -18,7 +18,7 @@ function Landing() {
             images={bgSlider}
             showBullets={false}
             showNavs={false}
-            autoPlay={true} 
+            autoPlay={false} 
                autoPlayDelay = {4}
          /></div>
       <div className='md:pt-64 items-center'>
