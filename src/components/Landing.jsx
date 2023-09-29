@@ -13,8 +13,8 @@ function Landing() {
     <div>
       <div>
       <div className='hidden-mobile md:fixed -z-10'><SimpleImageSlider
-            width={1920}
-            height={1080}
+            width={2560}
+            height={1440}
             images={bgSlider}
             showBullets={false}
             showNavs={false}
@@ -24,12 +24,13 @@ function Landing() {
       <div className='md:pt-64 items-center'>
         {/* bio */}
         <div className='md:flex'>
-          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>My Name is Corey Nadeau, and I am a full stack software 
-          engineer with a focus 
-          on HTML, CSS, Python, Flask, JavaScript, SQL, and React. I completed my education at Coding Temple, where I gained expertise in various programming languages and 
-          frameworks. I am passionate about developing creative solutions to complex problems and have a proven track record of delivering high-quality code that meets project 
-          requirements. I am a team player who enjoys collaborating with others to achieve common goals. I enjoy exploring new technologies and 
-          programming languages to expand my skills as a developer.</div>
+          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>My name is Corey Nadeau, and I'm a versatile professional 
+          in the tech world. Currently, I work as an IT Support Specialist, where I excel at providing technical assistance and troubleshooting to ensure smooth operations. In addition to my IT role, I am on a journey to enhance my technical 
+          skills further. I'm actively pursuing certifications in A+ and Network+ to bolster my knowledge in hardware and networking.
+          With a strong foundation in full-stack software engineering, I specialize in HTML, CSS, Python, Flask, JavaScript, SQL, and React. I honed my skills through formal education at Coding Temple, gaining expertise in various 
+          programming languages and frameworks. What sets me apart is my passion for crafting inventive solutions to intricate challenges. My proven track record showcases my ability to deliver top-notch code that aligns with project requirements.
+          As a team player, I thrive on collaboration, leveraging collective strengths to achieve common objectives. My enthusiasm for exploring cutting-edge technologies and programming languages is a testament to my commitment to 
+          personal and professional growth as a developer.</div>
             <img src={profpic} className='lg:max-w-lg border-2 border-black lg:shadow-black lg:mr-56 lg:rounded-3xl pb-2 lg:pb-0 bg-black object-cover'></img>
             </div>
           </div>
