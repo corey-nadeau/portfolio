@@ -21,7 +21,7 @@ function Landing() {
             autoPlay={true} 
                autoPlayDelay = {4}
          /></div>
-      <div className='md:pt-64 items-center'>
+      <div className='md:pb-64 2xl:pt-96 items-center'>
         {/* bio */}
         <div className='md:flex'>
           <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>My name is Corey Nadeau, and I'm a versatile professional 
@@ -53,17 +53,18 @@ function Landing() {
          />
             </div>
 
-          <div className='text-white md:w-full text-center md:my-48 md:mx-44 bg-opacity-70 p-6 bg-black md:rounded-xl flex border-2 border-black lg:shadow-black lg:shadow-2xl'>I am a proud husband and father of four children. 
+          <div className='text-white md:w-full text-center md:m-48 md:mx-44 bg-opacity-70 p-12 bg-black md:rounded-xl flex border-2 border-black lg:shadow-black lg:shadow-2xl'>I am a proud husband and father of four children. 
           My wife, Kayleen, is a medical insurance specialist with extensive experience in the healthcare industry. Kayleen is passionate about helping people navigate the 
           complex world of medical insurance and ensuring that they receive the care they need. Kayleen and I have four children: Marrissa, Corey Jr., Isaac, and Cloud. 
           Marrissa is an avid reader and enjoys writing her own stories. Corey Jr. is a talented musician who plays the trumpet and writes his own songs. Isaac is a budding artist 
           who loves to draw and paint, while Cloud is a curious toddler who loves to explore his surroundings. As a family, the Nadeaus enjoy spending time together, whether 
-          it's playing board games, going camping, or simply enjoying each other's company.</div><Cubed />
+          it's playing board games, going camping, or simply enjoying each other's company.
+          </div><Cubed />
         </div>
 
 
         {/* about */}
-        <div className='md:flex md:pt-12'>
+        <div className='md:flex md:pt-72'>
           <div className='text-white md:w-full text-center md:my-64 md:mx-44 bg-opacity-70 p-8 bg-black md:rounded-xl flex border-2 border-black lg:shadow-black lg:shadow-2xl'>I am an avid outdoorsman who enjoys spending 
           time hunting, mountain biking, and exploring nature with my family. I am passionate about the great outdoors and believe that spending time in nature is 
           essential for maintaining a healthy mind and body. When I'm not working as a full stack software engineer, I can often be found embarking on outdoor 
