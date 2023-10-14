@@ -24,7 +24,7 @@ function Landing() {
       <div className='md:pb-64 2xl:pt-96 items-center'>
         {/* bio */}
         <div className='md:flex'>
-          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>My name is Corey Nadeau, and I'm a versatile professional 
+          <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>Hello, My name is Corey Nadeau, and I'm a versatile professional 
           in the tech world. Currently, I work as an IT Support Specialist, where I excel at providing technical assistance and troubleshooting to ensure smooth operations. In addition to my IT role, I am on a journey to enhance my technical 
           skills further. I'm actively pursuing certifications in A+ and Network+ to bolster my knowledge in hardware and networking.
           With a strong foundation in full-stack software engineering, I specialize in HTML, CSS, Python, Flask, JavaScript, SQL, and React. I honed my skills through formal education at Coding Temple, gaining expertise in various 
