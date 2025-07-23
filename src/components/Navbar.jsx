@@ -16,7 +16,7 @@ function Navbar() {
                 
                 
             <div class="w3-dropdown-hover">
-            <button class="w3-padding-large w3-button text-sm" title="More">My Projects <i class="fa fa-caret-down"></i></button> 
+            <button class="w3-padding-large w3-button text-sm" title="More">Projects <i class="fa fa-caret-down"></i></button> 
 
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
                 <a href="https://minneapolis-music-flexbox.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Minneapolis Music Flexbox <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>

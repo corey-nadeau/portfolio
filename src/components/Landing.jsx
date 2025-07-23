@@ -25,7 +25,7 @@ function Landing() {
         {/* bio */}
         <div className='md:flex'>
           <div className='text-white md:w-full text-center mt-20 md:my-48 md:mx-44 bg-opacity-70 border-2 border-black lg:shadow-black lg:shadow-2xl p-8 bg-black md:rounded-xl flex'>I’m 
-            Corey Nadeau, a dynamic Network Administrator with a strong focus on delivering robust technical solutions and ensuring seamless system operations. My expertise spans a wide range 
+            Corey Nadeau, a Network Administrator with a strong focus on delivering robust technical solutions and ensuring seamless system operations. My expertise spans a wide range 
             of IT infrastructure technologies, including Proxmox, TrueNAS, Synology, Windows, and Linux, as well as Active Directory, cable and network management, and virtual 
             machine (VM) administration. I thrive in troubleshooting complex issues and optimizing network performance to support organizational goals.
             Currently, I’m advancing my technical credentials by pursuing A+ and Network+ certifications, deepening my knowledge of hardware and networking principles. Alongside my IT 
