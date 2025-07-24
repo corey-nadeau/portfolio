@@ -8,6 +8,15 @@ function Navbar() {
         <div class="w3-top w-full">
             <div class="w3-black w3-card text-center text-md">
                 <a href="#" class="w3-bar-item w3-button w3-padding-large md:text-sm"><b>Corey Nadeau</b> - I.T. / Developer / Tech Enthusiast / Net Admin</a>
+                
+                {/* NEW PROJECT BANNER */}
+                <div class="w3-red w3-animate-opacity w3-padding-small w3-margin-top w3-margin-bottom" style={{background: 'linear-gradient(45deg, #ff6b35, #f7931e)'}}>
+                    <a href="https://football-squares.netlify.app/" target="_blank" class="w3-text-white w3-hover-text-yellow" style={{textDecoration: 'none'}}>
+                        <i class="fa fa-star w3-spin"></i> 🚀 <strong>NEW PROJECT ALERT!</strong> 🚀 Check out my latest creation: Football Squares Game! <i class="fa fa-star w3-spin"></i>
+                        <tiny className="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></tiny>
+                    </a>
+                </div>
+                
                 <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small md:text-sm">Skills</a>
                 <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small md:text-sm">Contact Me</a>
                 <a href="#bottom" class="w3-bar-item w3-button w3-padding-large w3-hide-small md:text-sm">Social Media</a>
