@@ -25,16 +25,16 @@ function Navbar() {
                 
                 
             <div class="w3-dropdown-hover">
-            <button class="w3-padding-large w3-button text-sm" title="More">Projects <i class="fa fa-caret-down"></i></button> 
+            <button class="w3-padding-large w3-button text-sm" title="More" style={{background:'#fffde7',color:'#d32f2f',fontWeight:'bold',borderRadius:'6px',boxShadow:'0 0 6px #ff9800',position:'relative'}}>Projects <span style={{background:'#ffeb3b',color:'#d32f2f',fontWeight:'bold',borderRadius:'6px',padding:'2px 6px',marginLeft:'6px',fontSize:'0.8em',boxShadow:'0 0 6px #ff9800'}}>NEW!</span> <i class="fa fa-caret-down"></i></button> 
 
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
                 <a href="https://minneapolis-music-flexbox.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Minneapolis Music Flexbox <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
                 <a href="https://minneapolis-music.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Minneapolis Music <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
                 <a href="https://mmw3.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Minneapolis Music W3CSS <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
                 <a href="https://kayleens-llama-farm.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Llama Farm <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
-                <a href="https://corey-recipes.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Recipe Search <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
-                <a href="https://my-fav-art.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Favorite Artwork API <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
-                <a href="https://my-music-tiles.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Spotify API <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
+                <a href="https://football-squares.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Football Squares <span style={{background:'#ffeb3b',color:'#d32f2f',fontWeight:'bold',borderRadius:'6px',padding:'2px 6px',marginLeft:'6px',fontSize:'0.8em',boxShadow:'0 0 6px #ff9800'}}>NEW!</span> <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
+                <a href="https://kidschoretracker.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Chore-Tracker <span style={{background:'#ffeb3b',color:'#d32f2f',fontWeight:'bold',borderRadius:'6px',padding:'2px 6px',marginLeft:'6px',fontSize:'0.8em',boxShadow:'0 0 6px #ff9800'}}>NEW!</span> <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
+                <a href="https://smoke-stats.netlify.app/" target="_blank" class="w3-bar-item w3-button md:text-sm">Smoke-Stats <span style={{background:'#ffeb3b',color:'#d32f2f',fontWeight:'bold',borderRadius:'6px',padding:'2px 6px',marginLeft:'6px',fontSize:'0.8em',boxShadow:'0 0 6px #ff9800'}}>NEW!</span> <tiny className=" fa-solid fa-arrow-up-right-from-square text-xs"></tiny></a>
             </div>
             </div>
             <a href="https://www.codewars.com/users/djcjn16" target='_blank' class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-small">
